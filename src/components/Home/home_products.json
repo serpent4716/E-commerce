@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Electronics",
+      "img": "https://t4.ftcdn.net/jpg/03/64/41/07/360_F_364410756_Ev3WoDfNyxO9c9n4tYIsU5YBQWAP3UF8.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Women's Wear",
+      "img": "https://i0.wp.com/stylewise-blog.com/wp-content/uploads/2020/02/bb17e-img.jpg?resize=838%2C838&ssl=1"
+    },
+    {
+      "id": 3,
+      "name": "Men's Wear",
+      "img": "https://i.pinimg.com/originals/ef/98/ba/ef98ba12df0a8d878852ad177c8a86f8.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kid's Wear",
+      "img": "https://c8.alamy.com/comp/2BFN51X/collage-of-different-children-clothes-isolated-on-white-2BFN51X.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Jewellery",
+      "img": "https://cdn.dribbble.com/users/5696813/screenshots/14618711/media/d6a9e23e9166f2d801d0ff06399cfe69.jpg?resize=400x0"
+    },
+    {
+      "id": 6,
+      "name": "Footwear",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuFBWV8KEGg9V0nNE59g4aCWI9pmh48YqglA&s"
+    },
+    {
+      "id": 7,
+      "name": "Ethenic Wear",
+      "img": "https://static.toiimg.com/thumb/msid-86756579,width-400,resizemode-4/86756579.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Casual Wear",
+      "img": "https://miro.medium.com/v2/resize:fit:564/0*M5GEEt7x0EcnZKwc.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Bags",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fBgw8j1ZYDeOPd44BqF2Zb3HdSwsvfoBlw&s"
+    },
+    {
+      "id": 10,
+      "name": "Heels",
+      "img": "https://i.pinimg.com/736x/20/e1/65/20e16569696c48e917dabacf82f5378f.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Hats",
+      "img": "https://www.shutterstock.com/image-photo/many-hats-arranged-background-600w-258975746.jpg"
+    },
+    {
+      "id": 12,
+      "name": "SmartPhones",
+      "img": "https://english.onlinekhabar.com/wp-content/uploads/2023/01/Frame-1.png"
+    }
+  ]
+  

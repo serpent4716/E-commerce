@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/**Navbar**/
+.header {
+    display: flex;
+    justify-content: space-between; /* Ensure even spacing of items */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1; /* Allow the input to grow to fill the space */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.actions {
+    margin-left: -40px; /* Adjust the margin to align the search button with the input */
+}
+
+.actions button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    background-color: #f8f8f8;
+}
+
+.icon {
+    padding: 4px;
+    margin-left: 10px; /* Add margin to separate the icons */
+}
+
+.account border,.cart border {
+    display: flex;
+}
+
+.cart border,.account border button:last-child {
+    margin-left: auto; /* Push the last button (faCartShopping) to the right */
+}
+
+/**Panel**/
+.panel {
+    height: 30px;
+    background-color:#000000 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    width: 100%; /* Ensure the buttons span the full width */
+    padding: 8px 12px; /* Adjust button padding */
+    margin: 0; /* Remove default margin */
+}
+.panel-ops {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    width: 100%; /* Ensure the buttons span the full width */
+}
+
+.panel-ops button {
+    padding: 8px 12px; /* Adjust button padding */
+    margin: 0; /* Remove default margin */
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 30px;
+}
+.panel-deals {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url("https://popai-file.s3.ap-southeast-1.amazonaws.com/dalle3/fec55627-90c6-4958-84ac-5cfbef1ee678/7a30327d-b7fa-4118-89fa-c02608abca75/tplImg2acfc71371aa43218386d4646f308cfd");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.msg {
+    background-color: white;
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 50%;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.msg p {
+    display: inline;
+    margin-left: 50px;
+}
+
+.product-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:#d9d9d9 ;
+    
+}
+.product-card {
+    height: 200px; /* Decrease the height of the product card */
+    width: 150px; /* Decrease the width of the product card */
+    background-color: #ffffff;
+    padding: 10px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Update box-shadow */
+}
+
+.image-wrapper{
+    height:250px;
+    background-image: cover;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.image {
+    height: 3000px; /* Increase the height of the image */
+    max-width: 100%; /* Maintain the width as a percentage for responsiveness */
+    object-fit: cover; /* Maintain the image aspect ratio and cover the container */
+
+}

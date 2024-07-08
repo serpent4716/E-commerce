@@ -1,0 +1,352 @@
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.shoppingCart{
+
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.shopping-cart {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.shopping-cart h1 {
+    margin-top: 0;
+}
+
+.deselect {
+    color: #007185;
+    text-decoration: none;
+}
+
+.cart-item {
+    display: flex;
+    border-top: 1px solid #e6e6e6;
+    padding: 20px 0;
+}
+
+.cart-item img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h2 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+
+.stock-status {
+    color: #007600;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.actions label {
+    margin-right: 5px;
+}
+
+.actions select {
+    margin-right: 10px;
+}
+
+.actions a {
+    color: #007185;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.price {
+    text-align: right;
+    min-width: 100px;
+}
+
+.price p {
+    margin: 0;
+}
+
+.price .discount {
+    color: red;
+}
+
+.price .original-price {
+    text-decoration: line-through;
+}
+
+aside {
+    width: 300px;
+}
+
+.summary {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.summary p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.summary button {
+    width: 100%;
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+.discover-more {
+    background-color: white;
+    padding: 20px;
+}
+
+.discover-more h2 {
+    margin-top: 0;
+}
+
+.suggested-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.suggested-item img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.suggested-item p {
+    margin: 0;
+}
+
+.suggested-item button {
+    padding: 5px 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    width: 1000px; /* You can adjust the width as needed */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px; /* Curved corners */
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
+}
+
+.input:hover {
+    border-color: white; /* Border turns white on hover */
+}
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+    
+  /**Navbar**/
+  .navbar {
+    height: 60px;
+    background-color:#ffffff ;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1; /* Allow the input to grow to fill the space */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  /**box 1**/
+  .nav-logo {
+    height: 50px;
+    width: 200px;
+  }
+  .logo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+  }
+  .border{
+    border: 2px solid transparent;
+  }
+  .border:hover{
+    border: 2px solid rgb(239, 239, 239);
+  }
+  /**box 2**/
+  
+  /**Panel**/
+  .panel {
+    height: 30px;
+    background-color:#000000 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .panel-all {
+    display: inline;
+    width: 10%;
+  }
+  .panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+  }
+  .panel-ops p {
+    display: inline;
+    margin-left: 30px;
+  }
+  .panel-deals {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+    
+    .product-list {
+      background-color: #d9d9d9 ;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .product-list button{
+  
+      border-radius: 10px;
+    }
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 15px;
+    }
+    
+    .product-card img {
+      width: 100%;
+      height: 500px;
+    }
+    
+    .product-card h2 {
+      font-size: 18px;
+      color: #007185;
+      margin: 10px 0;
+    }
+    
+    .sponsored {
+      background-color: #f7f7f7;
+      color: #888;
+      font-size: 14px;
+      padding: 5px;
+      display: block;
+      text-align: left;
+    }
+    
+    .rating {
+      color: orange;
+      margin: 10px 0;
+    }
+    
+    .price {
+      font-size: 24px;
+      color: #b12704;
+    }
+    
+    button {
+      background-color: #bebebe;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    
+    button:hover {
+      background-color: #5d5d5d;
+    }
+    
+    .Image{
+      width: 200px;
+      height: 200px;
+    }
+  
+    .foot-panel1 {
+      background-color: rgb(57, 57, 57);
+      color: #ffffff;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.85rem;
+  
+  }
+
+  .input {
+    width: 1000px; /* You can adjust the width as needed */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px; /* Curved corners */
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
+}
+
+.input:hover {
+    border-color: white; /* Border turns white on hover */
+}
+
+.back-to-top {
+    display: block; /* Always displayed */
+    position: relative; /* Fixed position */
+    bottom: 20px; /* 20px from the bottom of the viewport */
+    right: 20px; /* 20px from the right of the viewport */
+    background-color: #333; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Border radius for rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 16px; /* Font size */
+    text-align: center;
+}
+
+.back-to-top:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.BUYING{
+    border-radius: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid #ccc; /* Add a solid border line */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.item-divider {
+  width: 100%;
+  border-top: 1px solid #ccc; /* Add a solid border line at the top */
+  margin: 20px 0; /* Margin for spacing */
+}
+
